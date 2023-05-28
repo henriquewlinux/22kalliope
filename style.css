@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url('./assets/capa.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.flex-container {
+  background-color: #191919d1;
+  height: auto;
+}
+
+.select {
+  height: 100vh;
+}
+
+.select h2 {
+  justify-content: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 28px;
+
+  padding-top: 40px;
+
+  width: auto;
+  color: #0091db;
+}
+
+.select h1 {
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #f2ae30;
+}
+
+.select h3 {
+  justify-content: center;
+  text-align: center;
+  padding: 70px 0 5px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #f2ae30;
+}
+
+.select ul {
+  list-style: none;
+}
+
+.select li {
+  justify-content: center;
+  text-align: center;
+  border: 2px solid #0091db;
+  background-color: rgba(0, 0, 0, 0.192);
+  padding: 20px 0 20px 0;
+  margin: 20px;
+
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  color: #f2ae30;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+li:nth-child(1) a {
+  padding: 20px 100px 20px 100px;
+}
+li:nth-child(2) a {
+  padding: 20px 130px 20px 130px;
+}
+li:nth-child(3) a {
+  padding: 20px 120px 20px 120px;
+}
